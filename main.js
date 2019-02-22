@@ -57,11 +57,11 @@
 	} 
 
 	self.Bar.prototype = {
-		down : function(){
+		down: function(){
 			this.y += this.speed;
 		},
-		up : function(){
-			this.x -= this.speed;
+		up: function(){
+			this.y -= this.speed;
 		},
 		toString: function(){
 			return "x: "+ this.x + " y: "+ this.y;   
