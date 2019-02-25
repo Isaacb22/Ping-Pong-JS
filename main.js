@@ -152,6 +152,7 @@ document.addEventListener("keydown",function(ev){
 
 });
 
+board_view.draw();
 window.requestAnimationFrame(controller);
 
 
